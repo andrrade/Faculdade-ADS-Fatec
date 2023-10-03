@@ -1,4 +1,4 @@
-// minha nota foi 7.5 de 8.0
+//minha nota foi 7.5 de 8.0
 function prova() {
   let produtos = [];
   let classificacao = [];
