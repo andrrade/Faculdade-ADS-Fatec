@@ -1,0 +1,23 @@
+LISTA 5
+
+Exercício 1 -
+Faça um programa em JavaScript que solicite ao usuário dados de 10 bikes. Cada bike deve conter informações como marca, modelo, quadro, aro, ano e preço. Após a entrada de dados, o programa deve calcular e exibir ao usuário:
+
+1) a média de preço das bikes
+
+2) qual a bike é mais antiga, deve-se considerar empates
+
+3) quais as bikes são do marca Caloi
+
+4) quantas bikes possuem aro 29
+
+5) qual bike possui maior quadro, pode-se desconsiderar empates
+
+Exercício 2 -
+Faça um programa em JS que guarde em um vetor dados de 5  farmacias: código, Nome e endereço 
+Não é possível crias duas farmácias com o mesmo código
+
+Em seguida, guarde em um vetor dados de 10 remédios: código da farmácia, nome do remédio, qtde em estoque e preço
+Não é possível cadastrar um remédio de uma farmácia que não exista
+
+Ao final, efetive a compra de 5 remédios, e atualize o estoque. Considere que a farmácia ou o remédio podem não existir, e cancela a compra.

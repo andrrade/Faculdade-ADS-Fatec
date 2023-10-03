@@ -1,0 +1,25 @@
+CAIO EDUARDO MONTEIRO DE SOUZA
+HIGOR JOSÉ MARTINS
+LAURA ANDRADE DE OLIVEIRA
+LEONARDO ABELO DE BARROS
+SAMUEL GUILHERME RODRIGUES DA COSTA
+
+NOTA: 9.5
+
+- MUITO BOA Introdução
+
+- EXCELENTE Objetivo
+
+- MUITO BOM Desenvolvimento
+
+- há equívocos conceituais na Coleta de dados
+
+- EXCELENTE a apresentação das considerações sobre Spacy
+
+- EXCELENTE Funcionamento
+
+- é conveniente que os resultados alcançados sejam apresentados antes da Conclusão
+
+- se houver alguma resposta com idade superior a 40 anos, como será tratada?
+
+- os processamentos das questões abertas poderiam ser apresentadas em formato de mais fácil interpretação (nuvem de palavras)
