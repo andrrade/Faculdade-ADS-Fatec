@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercício 24 - Lista 2</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="lista2.js"></script>
+  </head>
+  <body>
+    <div id="container">
+      <h1>Exercício 24</h1>
+      <div id="form">
+        <div>
+          <label for="number">Informe o preço</label>
+          <input type="number" id="preco" />
+        </div>
+        <div>
+          <label for="opcao">Selecione a categoria</label>
+          <select id="categoria">
+            <option value="1">Limpeza</option>
+            <option value="2">Alimentação</option>
+            <option value="3">Vestuário</option>
+          </select>
+        </div>
+        <div>
+            <label for="opcao">Selecione a situação</label>
+            <select id="situacao">
+              <option value="R">Necessita de reftigeração</option>
+              <option value="N">Não necessita de refrigeração</option>
+            </select>
+          </div>
+        <div>
+            <button onclick="exe24()">Calcular</button>
+        </div>
+        <div id="areaResultado">
+            <p id="resultado"></p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
