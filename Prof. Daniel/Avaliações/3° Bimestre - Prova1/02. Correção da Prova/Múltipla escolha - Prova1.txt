@@ -5,10 +5,10 @@ II. Java Script é uma linguagem de programação no front-end e precisa de um b
 III. Um projeto que segue as melhores práticas de programação possui 3 arquivos separados por suas funcionalidades: 1 arquivo HTML, 1 arquivo CSS e um arquivo JavaScript, sendo que o HTML possui referência para os arquivos CSS e JS
 
 Estão corretas:
-(X) I, II e III
+( ) I, II e III
 ( ) Apenas I e II
 ( ) Apenas I e III
-( ) Apenas II e III
+(X) Apenas II e III
 
 
 2. Analise as afirmações a respeito da linguagem JavaScript
