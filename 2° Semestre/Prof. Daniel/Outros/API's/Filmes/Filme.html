@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Usando api</title>
+    <script src="filme.js"></script>
+    <link rel="stylesheet" href="filme.css">
+</head>
+<body>
+    <div>
+        <form>
+            <div>
+                <label for="filme">Search movie title</label>
+                <input type="text"  id="filme" >
+            </div>
+            <div>
+                <label for="year">Movie year</label>
+                <input type="number"  id="year" >
+            </div>            
+            <div>
+                <button type="button" onclick="busca()">Search</button>
+            </div>
+            <div>
+                <button type="button" onclick="reset()">Reset</button>
+            </div>
+        </form>
+        </div>
+    </div>
+
+    <div id="lista">
+        <div id="item">
+            <h2></h2>
+            <img src="" alt="">
+            <p></p>
+            <p></p>
+        </div>
+    </div>
+
+
+</body>
+</html>
