@@ -1,0 +1,42 @@
+1. Analise as afirmações sobre as linguagens aprendidas até aqui no curso
+
+I. HTML é uma linguagem de programação e de marcação de elementos no front-end
+II. Java Script é uma linguagem de programação no front-end e precisa de um browser para interpretá-la
+III. Um projeto que segue as melhores práticas de programação possui 3 arquivos separados por suas funcionalidades: 1 arquivo HTML, 1 arquivo CSS e um arquivo JavaScript, sendo que o HTML possui referência para os arquivos CSS e JS
+
+Estão corretas:
+
+Resposta: Apenas II e III
+
+
+2. Analise as afirmações a respeito da linguagem JavaScript
+
+I. Os operadores lógico &&, || e ! são respectivamente operadores e, ou e negação
+II. Os comandos = e == são, respectivamente, de atribuição e comparação
+III. Não é preciso definir o tipo de dado de uma variável em JavaScript, ela pode assumir diferentes tipos ao longo de sua execução
+
+Estão corretas:
+
+Resposta: I, II e III
+
+
+3. Analise as afirmações a respeito das estruturas de repetição:
+  
+I. os comandos while e for possuem teste no início, enquanto que os comandos do ... while possuem teste no final
+  
+II. o comando do ... while é bom para verificar se entrada de dados do usuário está correta, colocando um loop que se encerra apenas quando o usuário informar valor correto.
+  
+III. o comando while precisa conter o comando de incremento(i++)/decremento(i--) para que em algum momento, o laço acabe. O comando for não precisa deste comando de incremento(i++)/decremento(i--).
+
+Estão corretas:
+
+Resposta: I e II
+
+
+4. Faça um programa que receba 10 nomes de modelos de computadores, juntamente com suas quantidades em estoque, e sua classificação (podendo ser apenas gamer, notebook, desktop). Qtde em estoque não pode ser negativa
+  
+Após a entrada de dados, o programa deve permitir que se façam 4 compras de computadores, informando modelo, classificação e quantidade a ser comprada. Se o modelo não existir, cancelar a compra. Se a quantidade for insuficiente, cancelar a compra. Mostrar as mensagens de erro e de sucesso ao usuário. 
+  
+Ao final, o programa deve mostrar os modelos dos computadores do tipo notebook com maior e menor valor em estoque
+
+* Resposta postada no meu github
