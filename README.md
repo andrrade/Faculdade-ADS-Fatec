@@ -1,5 +1,5 @@
 # Faculdade
-[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=7951eb&size=27&center=false&vCenter=true&width=1000&lines=Esse+é+o+meu+repositório+do+curso+de+ADS+da+FATEC+Franca.+;Ele+contém+arquivos+relacionados+aos+meus+estudos+acadêmicos.+)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.herokuapp.com/?color=7951eb&size=27&center=false&vCenter=true&width=1000&lines=Esse+é+o+meu+repositório+do+curso+de+ADS+da+FATEC+Franca+;ele+contém+arquivos+relacionados+aos+meus+estudos+acadêmicos.+)](https://git.io/typing-svg)
 Alguns exemplos desses arquivos são: documentos, projetos e atividades.
 
 ![linha](https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif)
