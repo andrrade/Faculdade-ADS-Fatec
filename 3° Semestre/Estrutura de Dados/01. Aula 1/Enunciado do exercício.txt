@@ -1,0 +1,7 @@
+Fazer um programa que manipule um vetor de, no máximo, 50 números inteiros e possua as seguintes funções:
+
+a) Inserir elementos
+b) Remover um elemento dado o seu valor
+c) Remover um elemento dadi a sua posição
+d) Somar os elementos pares ou ímpares
+e) Somar elementos entre 2 índices
