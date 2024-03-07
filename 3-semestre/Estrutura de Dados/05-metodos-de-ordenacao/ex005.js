@@ -9,6 +9,7 @@ function bubbleSort(array) {
       }
     }
   }
+  console.log(`Bubble Sort ${array}`);
 }
 
 function insercaoDireta(array) {
@@ -21,6 +22,7 @@ function insercaoDireta(array) {
     }
     array[j + 1] = atual;
   }
+  console.log(`Insertion Sort ${array}`);
 }
 
 function selecaoDireta(array) {
@@ -35,6 +37,7 @@ function selecaoDireta(array) {
       [array[i], array[menor]] = [array[menor], array[i]];
     }
   }
+  console.log(`Selection Sort ${array}`);;
 }
 
 let nums = [77, 44, 22, 33, 99, 55, 88, 0, 66, 11];

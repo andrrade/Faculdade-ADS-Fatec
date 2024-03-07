@@ -1,6 +1,6 @@
 // Inserção Direta
 // Pegar elemento por elemento e inserir no lugar certo
-function inserctionSort() {
+function insertionSort() {
   var vetor = [25, 57, 48, 37, 12, 92, 86, 33]; // definindo os valores do vetor
 
   for (var i = 1; i < vetor.length; i++) {
@@ -18,3 +18,5 @@ function inserctionSort() {
   }
   console.log(vetor); // exibe o vetor ordenado
 }
+
+insertionSort(); // chamando a função

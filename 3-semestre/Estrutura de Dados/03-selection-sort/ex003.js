@@ -22,3 +22,5 @@ function selectionSort() {
   }
   console.log(vetor); // exibe o vetor ordenado
 }
+
+selectionSort(); // chamando a função

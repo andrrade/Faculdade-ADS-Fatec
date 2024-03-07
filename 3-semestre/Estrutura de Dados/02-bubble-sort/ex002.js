@@ -13,3 +13,4 @@ function bubblesort() {
   }
   console.log(vetor);
 }
+bubblesort();
