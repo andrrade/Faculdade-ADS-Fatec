@@ -1,1 +1,0 @@
-Fazer os exercícios da bike, farmácia e votação com modularização e menu.
