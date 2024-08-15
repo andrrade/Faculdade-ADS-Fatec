@@ -2,7 +2,7 @@ package br.edu.fatecfranca.exercicio04;
 
 public class Rio {
     public String nome;
-    public float nivel;
+    public double nivel;
     public boolean poluido;
 
     public Rio(String nome, float nivel, boolean poluido) {
