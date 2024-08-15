@@ -5,7 +5,7 @@ public class Rio {
     public double nivel;
     public boolean poluido;
 
-    public Rio(String nome, float nivel, boolean poluido) {
+    public Rio(String nome, double nivel, boolean poluido) {
         this.nome = nome;
         this.nivel = nivel;
         this.poluido = poluido;
