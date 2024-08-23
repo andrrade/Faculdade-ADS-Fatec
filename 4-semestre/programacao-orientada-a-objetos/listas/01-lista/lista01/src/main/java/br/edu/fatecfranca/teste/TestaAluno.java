@@ -1,4 +1,6 @@
-package br.edu.fatecfranca.exercicio01;
+package br.edu.fatecfranca.teste;
+
+import br.edu.fatecfranca.exercicio01.Aluno;
 
 public class TestaAluno {
     // criando o metodo main

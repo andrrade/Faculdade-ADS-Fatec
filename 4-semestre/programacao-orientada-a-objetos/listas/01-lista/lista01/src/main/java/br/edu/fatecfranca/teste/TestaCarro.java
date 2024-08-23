@@ -1,4 +1,4 @@
-package br.edu.fatecfranca.exercicio00.teste;
+package br.edu.fatecfranca.teste;
 import br.edu.fatecfranca.exercicio00.Carro;
 
 import javax.swing.*;

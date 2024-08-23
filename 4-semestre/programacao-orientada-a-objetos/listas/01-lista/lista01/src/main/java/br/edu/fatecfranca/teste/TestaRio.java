@@ -1,4 +1,6 @@
-package br.edu.fatecfranca.exercicio04;
+package br.edu.fatecfranca.teste;
+
+import br.edu.fatecfranca.exercicio04.Rio;
 
 public class TestaRio {
     public static void main(String[] args) {

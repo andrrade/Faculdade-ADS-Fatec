@@ -1,4 +1,6 @@
-package br.edu.fatecfranca.exercicio02;
+package br.edu.fatecfranca.teste;
+
+import br.edu.fatecfranca.exercicio02.Cliente;
 
 public class TestaCliente {
     public static void main(String[] args) {
