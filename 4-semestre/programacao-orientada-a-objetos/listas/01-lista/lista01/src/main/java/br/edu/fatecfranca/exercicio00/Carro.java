@@ -30,6 +30,6 @@ public class Carro {
     }
     
     public String toString(){
-        return "Marca" + this.marca + " Modelo " + this.modelo + " Cor " + this.cor + " Ano " + this.ano + " Velocidade: " + velAtual;
+        return "Marca: " + this.marca + " Modelo: " + this.modelo + " Cor " + this.cor + " Ano " + this.ano + " Velocidade: " + velAtual;
     }
 }

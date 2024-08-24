@@ -2,11 +2,9 @@ package br.edu.fatecfranca.exercicio01;
 
 public class Aluno {
     // criando as variaveis
-    public int numeroAluno;
+    public int numeroAluno, idade;
     public String nome;
-    public int idade;
-    public double p1;
-    public double p2;
+    public double p1, p2;
 
     // criando os construtores
     public Aluno(int numeroAluno, String nome, int idade, double p1, double p2) {
