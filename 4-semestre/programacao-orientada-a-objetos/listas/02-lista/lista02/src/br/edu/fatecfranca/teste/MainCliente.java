@@ -7,7 +7,7 @@ public class MainCliente {
         Cliente cliente1 = new Cliente("230922-4", "2018-4","Fulano", 200);
 
         cliente1.realizarDeposito(1000);
-        cliente1.realizarSaque(-90);
-        System.out.println(cliente1);
+        cliente1.realizarSaque(100);
+        cliente1.dadosCliente();
     }
 }

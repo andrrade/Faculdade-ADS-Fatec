@@ -5,65 +5,19 @@ public class Cliente {
     private String numeroConta, numeroAgencia, nome;
     private float saldo;
 
+    // métodos construtores com validação
+    public Cliente(String numeroConta, String numeroAgencia, String nome, float saldo) {
+        this.setNumeroConta(numeroConta);
+        this.setNumeroAgencia(numeroAgencia);
+        this.setNome(nome);
+        this.setSaldo(saldo);
+    }
+
     public Cliente(){
         this.numeroConta = "";
         this.numeroAgencia = "";
         this.nome = "";
-    }
-
-    // metodo construtos
-    public Cliente(String numeroConta, String numeroAgencia, String nome, float saldo) {
-        this.numeroConta = numeroConta;
-        this.numeroAgencia = numeroAgencia;
-        this.nome = nome;
-        this.saldo = saldo;
-    }
-
-    // setters
-    public void setNumeroConta(String numeroConta) {
-        if(numeroConta.length() == 8){
-            if(numeroConta.charAt(6) == '-'){
-                this.numeroConta = numeroConta;
-            }
-            else{
-                System.out.println("Número da conta SEM o dígito verificador '-' é INVÁLIDO!!!\n");
-            }
-        }
-        else{
-            System.out.println("Número da conta DIFERENTE de 8 dígitos é INVÁLIDO!!!\n");
-        }
-    }
-
-    public void setNumeroAgencia(String numeroAgencia) {
-        if(numeroAgencia.length() == 6){
-            if(numeroAgencia.charAt(4) == '-'){
-                this.numeroAgencia = numeroAgencia;
-            }
-            else{
-                System.out.println("Número da agência SEM o dígito verificador '-' é INVÁLIDO!!!");
-            }
-        }
-        else{
-            System.out.println("Número da agência DIFERENTE de 6 dígitos é INVÁLIDO!!!");
-        }
-    }
-
-    public void setNome(String nome) {
-        if(nome.length() <= 30){
-            this.nome = nome;
-        }
-        else{
-            System.out.println("Nome INVÁLIDO, pois ultrapassou 30 caracteres!!!");
-        }
-    }
-
-    public void setSaldo(float saldo) {
-        if (saldo >= 0) {
-            this.saldo = saldo;
-        }
-        else{
-            System.out.println("Saldo INVÁLIDO, pois NÃO pode ser negativo!!!");
-        }
+        this.saldo = 0;
     }
 
     // getters
@@ -83,13 +37,76 @@ public class Cliente {
         return saldo;
     }
 
+    // setters
+    public void setNumeroConta(String numeroConta) {
+        if(numeroConta.length() == 8){ // definindo tamanho 8
+            if(numeroConta.charAt(6) == '-'){ // definindo traço verificador
+                this.numeroConta = numeroConta;
+            }
+            else{
+                System.out.println("Número da conta " + numeroConta + " INVÁLIDO: é necessário ter o dígito verificador '-' e seguir o formato: '000000-0'!!!\n");
+            }
+        }
+        else{
+            System.out.println("Número da conta " + numeroConta + " INVÁLIDO: é necessário ter exatamente 8 caracteres no formato '000000-0'!!!\n");
+        }
+    }
+
+    public void setNumeroAgencia(String numeroAgencia) {
+        if(numeroAgencia.length() == 6){ // definindo tamanho 6
+            if(numeroAgencia.charAt(4) == '-'){ // definindo traço verificador
+                this.numeroAgencia = numeroAgencia;
+            }
+            else{
+                System.out.println("Número da agência " + numeroAgencia + " INVÁLIDO: é necessário ter o dígito verificador '-' e seguir o formato: '0000-0'!!!\n!!!");
+            }
+        }
+        else{
+            System.out.println("Número da agência " + numeroAgencia + " INVÁLIDO: é necessário ter exatamente 6 caracteres no formato '000000-0'!!!");
+        }
+    }
+
+    public void setNome(String nome) {
+        if(nome != null && nome.length() <= 30){ // nome não pode ultrapassar 30 caracteres e não pode ser nulo
+            this.nome = nome;
+        }
+        else{
+            System.out.println("Nome " + nome + " INVÁLIDO: não pode ser nulo e não pode exceder 30 caracteres!!!");
+        }
+    }
+
+    public void setSaldo(float saldo) {
+        if (saldo >= 0) { // saldo não pode ser negativo
+            this.saldo = saldo;
+        }
+        else{
+            System.out.println("Saldo " + saldo + " INVÁLIDO: não pode ser negativo!!!");
+        }
+    }
+
     // criação de métodos
     public void realizarDeposito(float x){
-        this.setSaldo(this.getSaldo() + x);
+        if(x > 0){
+            this.saldo += x;
+            System.out.println("Valor do depósito: " + x);
+        }
+        else{
+            System.out.println("O valor " + x + " é INVÁLIDO: deve ser positivo!!!");
+        }
     }
 
     public void realizarSaque(float x){
-        this.setSaldo(this.getSaldo() - x);
+        if(x > 0 && x <= this.saldo){
+            this.saldo -= x;
+            System.out.println("Valor do saque: " + x);
+        }
+        else{
+            System.out.println("O valor " + x + " é INVÁLIDO: deve ser positivo e menor ou igual ao saldo!!!");
+        }
+    }
+
+    public void dadosCliente(){
+        System.out.println(this.toString());
     }
 
     @Override

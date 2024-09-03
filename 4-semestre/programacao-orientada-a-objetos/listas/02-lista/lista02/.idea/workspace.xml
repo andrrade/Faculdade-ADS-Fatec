@@ -5,16 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="6896d527-67e7-47e1-ac2e-b950272c6a18" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../lista03/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lista03/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lista03/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lista03/.idea/modules.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lista03/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lista03/lista03.iml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lista03/src/br/edu/fatecfranca/exe00/CarItem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lista03/src/br/edu/fatecfranca/exe00/Product.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lista03/src/br/edu/fatecfranca/exe00/ShoppingCart.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/../lista03/src/br/edu/fatecfranca/teste/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/fatecfranca/exe01/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/fatecfranca/exe01/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/fatecfranca/exe02/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/fatecfranca/exe02/Aluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/fatecfranca/teste/MainAluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/fatecfranca/teste/MainAluno.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/br/edu/fatecfranca/teste/MainCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/fatecfranca/teste/MainCliente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -52,7 +47,7 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Laura/OneDrive/Documentos/estudos/faculdade/github-fatec/4-semestre/programacao-orientada-a-objetos/listas/03-lista/lista03",
+    "last_opened_file_path": "C:/Users/Laura/OneDrive/Documentos/estudos/faculdade/github-fatec/4-semestre/programacao-orientada-a-objetos/listas/02-lista/lista02",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -83,6 +78,7 @@
       <workItem from="1725334234015" duration="25000" />
       <workItem from="1725335559907" duration="371000" />
       <workItem from="1725336107467" duration="12000" />
+      <workItem from="1725362069842" duration="5278000" />
     </task>
     <servers />
   </component>
