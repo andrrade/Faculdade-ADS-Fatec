@@ -7,7 +7,7 @@ public class Disciplina {
     private int id;
     private String name, sigla;
     private Professor professor;
-    private List<Aluno> Alunos = new ArrayList<Aluno>();
+    private List<Aluno> alunos = new ArrayList<Aluno>();
 
     // contrutor vazio
     public Disciplina() {
@@ -20,7 +20,7 @@ public class Disciplina {
         this.name = name;
         this.sigla = sigla;
         this.professor = professor;
-        Alunos = alunos;
+        alunos = alunos;
     }
 
     // construtor com todos os parâmetros com a exceção
@@ -49,7 +49,7 @@ public class Disciplina {
     }
 
     public List<Aluno> getAlunos() {
-        return Alunos;
+        return alunos;
     }
 
     // setters
@@ -70,7 +70,7 @@ public class Disciplina {
     }
 
     public void setAlunos(List<Aluno> alunos) {
-        Alunos = alunos;
+        alunos = alunos;
     }
 
     // to String
@@ -81,12 +81,16 @@ public class Disciplina {
                 ", name='" + name + '\'' +
                 ", sigla='" + sigla + '\'' +
                 ", professor=" + professor +
-                ", Alunos=" + Alunos +
+                ", Alunos=" + alunos +
                 '}';
     }
 
     // métodos
     public void dadosDisciplina(){
         System.out.println(this.toString());
+    }
+
+    public void addAluno(Aluno al){
+        this.alunos.add(al);
     }
 }
