@@ -6,10 +6,6 @@
   <component name="ChangeListManager">
     <list default="true" id="6896d527-67e7-47e1-ac2e-b950272c6a18" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/fatecfranca/exe01/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/fatecfranca/exe01/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/fatecfranca/exe02/Aluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/fatecfranca/exe02/Aluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/fatecfranca/teste/MainAluno.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/fatecfranca/teste/MainAluno.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/br/edu/fatecfranca/teste/MainCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/br/edu/fatecfranca/teste/MainCliente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,26 +33,27 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.MainAluno.executor": "Run",
-    "Application.MainCliente.executor": "Run",
-    "Application.MainCompra.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/Laura/OneDrive/Documentos/estudos/faculdade/github-fatec/4-semestre/programacao-orientada-a-objetos/listas/02-lista/lista02",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "onboarding.tips.debug.path": "C:/Users/Laura/OneDrive/Documentos/estudos/faculdade/github-fatec/4-semestre/programacao-orientada-a-objetos/listas/02-lista/lista02/src/Main.java",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainAluno.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainCliente.executor&quot;: &quot;Run&quot;,
+    &quot;Application.MainCompra.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Laura/OneDrive/Documentos/estudos/faculdade/github-fatec/4-semestre/programacao-orientada-a-objetos/listas/02-lista/lista02&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Laura/OneDrive/Documentos/estudos/faculdade/github-fatec/4-semestre/programacao-orientada-a-objetos/listas/02-lista/lista02/src/Main.java&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -79,6 +76,9 @@
       <workItem from="1725335559907" duration="371000" />
       <workItem from="1725336107467" duration="12000" />
       <workItem from="1725362069842" duration="5278000" />
+      <workItem from="1725370288704" duration="146000" />
+      <workItem from="1725370455960" duration="198000" />
+      <workItem from="1725375741265" duration="54000" />
     </task>
     <servers />
   </component>
