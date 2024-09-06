@@ -76,7 +76,7 @@ public class Disciplina {
     // to String
     @Override
     public String toString() {
-        return "Disciplina{" +
+        return "\nDisciplina{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", sigla='" + sigla + '\'' +

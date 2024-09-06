@@ -6,7 +6,7 @@ public class Aluno {
     private String nome, username;
 
     // construtor
-    public Aluno(int id, String nome) {
+    public Aluno(int id, String nome, String username) {
         this.id = id;
         this.nome = nome;
         this.username = username;
@@ -48,7 +48,7 @@ public class Aluno {
     // to String
     @Override
     public String toString() {
-        return "Aluno{" +
+        return "\nAluno{" +
                 "id=" + id +
                 ", nome='" + nome + '\'' +
                 ", username='" + username + '\'' +

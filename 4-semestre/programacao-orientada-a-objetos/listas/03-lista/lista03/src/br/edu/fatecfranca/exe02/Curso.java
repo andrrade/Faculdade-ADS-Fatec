@@ -56,7 +56,7 @@ public class Curso {
     // to String
     @Override
     public String toString() {
-        return "Curso{" +
+        return "\nCurso{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", area='" + area + '\'' +
@@ -64,16 +64,23 @@ public class Curso {
                 '}';
     }
 
+    public void dadosCurso(){
+        System.out.println(this.toString());
+    }
+
     public void addDisciplina(int id, String name, String sigla, Professor professor){
         this.disciplina.add(new Disciplina(id, name, sigla, professor));
     }
 
     public void addAlunoDisciplina(int idDisciplina, Aluno aluno){
+        boolean achou = false;
         for(Disciplina disciplina: disciplina){
             if(disciplina.getId() == idDisciplina){
                 disciplina.addAluno(aluno);
-                break;
+                achou = true;
+                return;
             }
         }
+        System.out.println("Dis");
     }
 }
