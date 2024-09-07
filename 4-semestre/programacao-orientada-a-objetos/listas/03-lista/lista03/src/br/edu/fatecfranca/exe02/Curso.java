@@ -81,6 +81,6 @@ public class Curso {
                 return;
             }
         }
-        System.out.println("Dis");
+        System.out.println("Disciplina INVÁLIDA!!!");
     }
 }
