@@ -1,8 +1,6 @@
 package br.edu.fatecfranca.teste;
 
-import br.edu.fatecfranca.exe02.Aluno;
-import br.edu.fatecfranca.exe02.Curso;
-import br.edu.fatecfranca.exe02.Professor;
+import br.edu.fatecfranca.exe02.*;
 
 public class MainCurso {
     public static void main(String[] args) {
@@ -11,7 +9,9 @@ public class MainCurso {
         Aluno al3 = new Aluno(3, "Maria", "maria123");
 
         Professor prof1 = new Professor(10, "Carlão", "carlao123");
+
         Curso curso1 = new Curso(100, "ADS", "Exatas");
+
         curso1.addDisciplina(1000, "Eng. Software", "ES03", prof1);
 
         curso1.addAlunoDisciplina(1000, al1);

@@ -2,20 +2,20 @@ package br.edu.fatecfranca.exe00;
 
 // é objeto todo para Product
 
-public class CarItem {
+public class    CarItem {
     // variáveis
     private int id;
     private int quantity;
-    // agregação - objeto parte no objeto todo
-    private Product product;
+    private Product product; // agregação - objeto parte no objeto todo
 
-    // construtores
+    // construtor
     public CarItem(int id, int quantity, Product product) {
         this.id = id;
         this.quantity = quantity;
         this.product = product;
     }
 
+    // construtor vazio
     public CarItem() {
     }
 
@@ -45,10 +45,10 @@ public class CarItem {
         this.product = product;
     }
 
-    // outros métodos
+    // to String
     @Override
     public String toString() {
-        return "CarItem{" +
+        return "\nCarItem{" +
                 "id=" + id +
                 ", quantity=" + quantity +
                 ", product=" + product +

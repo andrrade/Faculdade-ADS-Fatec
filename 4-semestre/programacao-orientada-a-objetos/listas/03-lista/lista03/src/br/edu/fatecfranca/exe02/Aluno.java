@@ -12,7 +12,7 @@ public class Aluno {
         this.username = username;
     }
 
-    // construtor para valores padrões
+    // construto vazio
     public Aluno() {
         this.id = 0;
         this.nome = "";
@@ -59,6 +59,4 @@ public class Aluno {
     public void dadosAluno(){
         System.out.println(this.toString());
     }
-
-
 }

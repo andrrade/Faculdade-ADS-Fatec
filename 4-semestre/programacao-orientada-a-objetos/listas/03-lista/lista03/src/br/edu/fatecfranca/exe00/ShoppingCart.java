@@ -5,20 +5,19 @@ import java.util.Date;
 import java.util.List;
 
 public class ShoppingCart {
+    // variáveis
     private int id;
     private Date data;
     private String destino;
     private String formaPagto;
     private float precoTotal;
-
-    //  composição = criação do objeto dentro da classe
-    private List<CarItem> carItens;
+    private List<CarItem> carItens; // composição = criação do objeto dentro da classe
     public ShoppingCart() {
         this.carItens = new ArrayList<CarItem>(); // aloca espaço para o vetor
     }
 
-    public ShoppingCart(int id, Date data, String destino, String formaPagto,
-                        float precoTotal) {
+    // construtor sem array
+    public ShoppingCart(int id, Date data, String destino, String formaPagto, float precoTotal) {
         this.id = id;
         this.data = data;
         this.destino = destino;
@@ -52,7 +51,7 @@ public class ShoppingCart {
         return carItens;
     }
 
-    // setters
+    // setters sem array
     public void setId(int id) {
         this.id = id;
     }
@@ -73,6 +72,21 @@ public class ShoppingCart {
         this.precoTotal = precoTotal;
     }
 
+    // to String
+    @Override
+    public String toString() {
+        return "\nShoppingCart{" +
+                "id=" + id +
+                ", data=" + data +
+                ", destino='" + destino + '\'' +
+                ", formaPagto='" + formaPagto + '\'' +
+                ", precoTotal=" + precoTotal +
+                ", carItens=" + carItens +
+                '}';
+    }
+
+    // métodos:
+
     // adiciona um item do carrinho no carrinho de compra
     public void addCarItem(Product product, int quantity, int id) {
         this.carItens.add(new CarItem(id, quantity, product));
@@ -84,18 +98,5 @@ public class ShoppingCart {
             soma += carItem.getQuantity() * carItem.getProduct().getPrice();
         }
         this.precoTotal = soma;
-    }
-
-    // outros métodos
-    @Override
-    public String toString() {
-        return "ShoppingCart{" +
-                "id=" + id +
-                ", data=" + data +
-                ", destino='" + destino + '\'' +
-                ", formaPagto='" + formaPagto + '\'' +
-                ", precoTotal=" + precoTotal +
-                ", carItens=" + carItens +
-                '}';
     }
 }

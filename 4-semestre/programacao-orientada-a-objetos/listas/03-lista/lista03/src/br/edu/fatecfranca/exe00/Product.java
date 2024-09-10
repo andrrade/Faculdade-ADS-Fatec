@@ -6,13 +6,14 @@ public class Product {
     private String name;
     private float price;
 
-    // construtores
+    // construtor
     public Product(int id, String name, float price) {
         this.id = id;
         this.name = name;
         this.price = price;
     }
 
+    // construtor vazio
     public Product() {
     }
 
@@ -42,10 +43,10 @@ public class Product {
         this.price = price;
     }
 
-    // outros métodos
+    // to String
     @Override
     public String toString() {
-        return "Product{" +
+        return "\nProduct{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
                 ", price=" + price +

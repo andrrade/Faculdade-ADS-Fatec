@@ -1,5 +1,6 @@
 package br.edu.fatecfranca.exe02;
 
+// importação
 import java.util.ArrayList;
 import java.util.List;
 
@@ -7,23 +8,23 @@ public class Curso {
     // variáveis
     private int id;
     private String name, area;
-    private List<Disciplina> disciplina = new ArrayList<Disciplina>();
+    private List<Disciplina> disciplina = new ArrayList<Disciplina>(); // diamante preenchido + N (array)
 
-    // construtor com parâmetros com a exceção do array
+    // construtor sem array
     public Curso(int id, String name, String area) {
         this.id = id;
         this.name = name;
         this.area = area;
     }
 
-    // construtor com os valores padrões
+    // construtor vazio
     public Curso(){
         this.id = 0;
         this.name = "";
         this.area = "";
     }
 
-    // getters de toodos
+    // getters
     public int getId() {
         return id;
     }
@@ -40,7 +41,7 @@ public class Curso {
         return disciplina;
     }
 
-    // setter de todos com exeção do array
+    // setters sem array
     public void setId(int id) {
         this.id = id;
     }
@@ -64,14 +65,17 @@ public class Curso {
                 '}';
     }
 
+    // métodos
     public void dadosCurso(){
         System.out.println(this.toString());
     }
 
+    // adicionar valores ao array (N)
     public void addDisciplina(int id, String name, String sigla, Professor professor){
         this.disciplina.add(new Disciplina(id, name, sigla, professor));
     }
 
+    // adicionar valores ao array (N)
     public void addAlunoDisciplina(int idDisciplina, Aluno aluno){
         boolean achou = false;
         for(Disciplina disciplina: disciplina){

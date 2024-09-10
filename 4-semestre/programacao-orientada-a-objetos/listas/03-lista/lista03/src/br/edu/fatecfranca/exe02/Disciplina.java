@@ -1,20 +1,18 @@
 package br.edu.fatecfranca.exe02;
 
+// importação
 import java.util.ArrayList;
 import java.util.List;
 
 public class Disciplina {
     private int id;
     private String name, sigla;
-    private Professor professor;
-    private List<Aluno> alunos = new ArrayList<Aluno>();
+    private Professor professor; // diamante não preenchido + 1
+    private List<Aluno> alunos = new ArrayList<Aluno>(); // diamante não preenchido + N (Array)
 
-    // contrutor vazio
-    public Disciplina() {
 
-    }
 
-    // construtor com todos os parâmetros, incluindo o vetor
+    // construtor
     public Disciplina(int id, String name, String sigla, Professor professor, List<Aluno> alunos) {
         this.id = id;
         this.name = name;
@@ -23,12 +21,19 @@ public class Disciplina {
         alunos = alunos;
     }
 
-    // construtor com todos os parâmetros com a exceção
+    // construtor sem array
     public Disciplina(int id, String name, String sigla, Professor professor) {
         this.id = id;
         this.name = name;
         this.sigla = sigla;
         this.professor = professor;
+    }
+
+    // contrutor vazio
+    public Disciplina() {
+        this.id = 0;
+        this.name = "";
+        this.sigla = "";
     }
 
     // getters
@@ -70,7 +75,7 @@ public class Disciplina {
     }
 
     public void setAlunos(List<Aluno> alunos) {
-        alunos = alunos;
+        this.alunos = alunos;
     }
 
     // to String
@@ -90,6 +95,7 @@ public class Disciplina {
         System.out.println(this.toString());
     }
 
+    // adicionar valores ao array (N)
     public void addAluno(Aluno al){
         this.alunos.add(al);
     }

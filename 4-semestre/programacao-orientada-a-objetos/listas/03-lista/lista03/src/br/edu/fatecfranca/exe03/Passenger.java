@@ -1,22 +1,22 @@
-package br.edu.fatecfranca.exe02;
+package br.edu.fatecfranca.exe03;
 
-public class Professor {
+public class Passenger {
     // variáveis
-    private  int id;
-    private String name, username;
+    private int id;
+    private String name, cpf;
 
     // construtor
-    public Professor(int id, String name, String username) {
+    public Passenger(int id, String name, String cpf) {
         this.id = id;
         this.name = name;
-        this.username = username;
+        this.cpf = cpf;
     }
 
     // construtor vazio
-    public Professor(){
+    public Passenger() {
         this.id = 0;
         this.name = "";
-        this.username = "";
+        this.cpf = "";
     }
 
     // getters
@@ -28,8 +28,8 @@ public class Professor {
         return name;
     }
 
-    public String getUsername() {
-        return username;
+    public String getCpf() {
+        return cpf;
     }
 
     // setters
@@ -41,22 +41,22 @@ public class Professor {
         this.name = name;
     }
 
-    public void setUsername(String username) {
-        this.username = username;
+    public void setCpf(String cpf) {
+        this.cpf = cpf;
     }
 
     // to String
     @Override
     public String toString() {
-        return "\nProfessor{" +
+        return "\nPassenger{" +
                 "id=" + id +
                 ", name='" + name + '\'' +
-                ", username='" + username + '\'' +
+                ", cpf='" + cpf + '\'' +
                 '}';
     }
 
     // métodos
-    public void dadosProfessor(){
+    public void dadosPassenger(){
         System.out.println(this.toString());
     }
 }
