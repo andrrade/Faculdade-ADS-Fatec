@@ -57,5 +57,5 @@ Esse projeto está sob a licença MIT. Veja o arquivo [LICENSE](./LICENSE) para 
 ---
 
 <p align="center">
-  <img alt="Logo da Fatec" src="https://github.com/user-attachments/assets/5266654d-5ea7-4901-89ac-c502a4cbc98d" width="270px" />
+  <img alt="Logo da Fatec" src="https://github.com/user-attachments/assets/a575f31e-32ec-4cda-92e2-5133bf2bb4fb" width="500px"/>
 </p>
